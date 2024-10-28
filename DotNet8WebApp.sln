@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8WebApp.Expenses", "MyoThetDotNetCore.Expenses\DotNet8WebApp.Expenses.csproj", "{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8WebApp.Expenses", "DotNet8WebApp.Expenses\DotNet8WebApp.Expenses.csproj", "{97F7F437-D022-4FE0-9E76-2284B9EEC6C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F7F437-D022-4FE0-9E76-2284B9EEC6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F7F437-D022-4FE0-9E76-2284B9EEC6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F7F437-D022-4FE0-9E76-2284B9EEC6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F7F437-D022-4FE0-9E76-2284B9EEC6C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
