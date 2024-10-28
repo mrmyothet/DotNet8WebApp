@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyoThetDotNetCore.Expenses", "MyoThetDotNetCore.Expenses\MyoThetDotNetCore.Expenses.csproj", "{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8WebApp.Expenses", "MyoThetDotNetCore.Expenses\DotNet8WebApp.Expenses.csproj", "{9966C7B7-4292-41A2-B12E-CA7C8D3A204F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
