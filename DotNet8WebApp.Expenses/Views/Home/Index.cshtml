@@ -4,12 +4,26 @@
     ViewData["Title"] = "Expenses";
 }
 
-@foreach (var item in Model)
-{
-    <h3>Expense Id: @item.ExpenseId</h3>    
-    <h3>Title: @item.Title</h3>
-    <h3>Money Spent: @item.MoneySpent</h3>
-    <h3>Expense Date: @item.SpentDate</h3>
-    <h3>Category: @item.Category</h3>
-    <hr />
-}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Money Spent</th>
+            <th scope="col">Spent Date</th>
+            <th scope="col">Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.ExpenseId</th>
+                <td>@item.Title</td>
+                <td>@item.MoneySpent</td>
+                <td>@item.SpentDate</td>
+                <td>@item.Category</td>
+            </tr>
+        }
+    </tbody>
+</table>
