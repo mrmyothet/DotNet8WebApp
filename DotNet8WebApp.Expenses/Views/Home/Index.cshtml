@@ -2,6 +2,22 @@
 
 @{
     ViewData["Title"] = "Expenses";
+    var success = TempData["success"];
+    var error = TempData["error"];
+}
+
+@if (success is not null)
+{
+    <div class="alert alert-success" role="alert">
+        @success
+    </div>    
+}
+
+@if (error is not null)
+{
+    <div class="alert alert-danger" role="alert">
+        @error
+    </div>    
 }
 
 <a href="/Home/NewExpense" class="btn btn-outline-dark my-3">New Expense</a>
