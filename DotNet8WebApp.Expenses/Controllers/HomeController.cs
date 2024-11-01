@@ -115,6 +115,11 @@ namespace MyoThetDotNetCore.Expenses.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult DeleteExpense(int ExpenseId)
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
